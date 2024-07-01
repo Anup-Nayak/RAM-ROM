@@ -27,15 +27,6 @@ The convolution operation is performed using a 3x3 kernel, where each pixel valu
 ### Normalization
 After convolution, the resulting pixel values are normalized to ensure they fall within the 0-255 range. This is done by scaling the values appropriately.
 
-## Files
-- **image_filter.vhdl:** VHDL code for the image filtering operation.
-- **ram.vhdl:** VHDL code for the RAM module.
-- **rom.vhdl:** VHDL code for the ROM module.
-- **registers.vhdl:** VHDL code for the registers.
-- **compute_unit.vhdl:** VHDL code for the compute unit.
-- **normalization.vhdl:** VHDL code for the normalization unit.
-- **testbench.vhdl:** VHDL testbench for simulating and verifying the design.
-
 ## Usage
 ### Simulation
 To simulate the design, use a VHDL simulator (e.g., ModelSim, GHDL). Load the testbench file and run the simulation to verify the functionality of the image filtering operation.
